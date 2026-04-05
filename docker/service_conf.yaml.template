@@ -51,27 +51,16 @@ seekdb:
     password: '${SEEKDB_PASSWORD:-infini_rag_flow}'
     host: '${SEEKDB_HOST:-seekdb}'
     port: ${SEEKDB_PORT:-2881}
-aliyun_opensearch:
-  hosts: '${ALIYUN_OPENSEARCH_HOSTS}'
-  username: '${ALIYUN_OPENSEARCH_USER:-admin}'
-  password: '${ALIYUN_OPENSEARCH_PASSWORD}'
 redis:
   db: 1
   username: '${REDIS_USERNAME:-}'
   password: '${REDIS_PASSWORD:-infini_rag_flow}'
   host: '${REDIS_HOST:-redis}:6379'
 user_default_llm:
-  factory: 'Tongyi-Qianwen'
-  api_key: '${DASHSCOPE_API_KEY}'
   default_models:
-    chat_model:
-      name: 'deepseek-chat'
-      factory: 'DeepSeek'
-      api_key: '${DEEPSEEK_API_KEY}'
     embedding_model:
-      name: 'text_embedding_v2'
-      factory: 'Tongyi-Qianwen'
-      api_key: '${DASHSCOPE_API_KEY}'
+      api_key: 'xxx'
+      base_url: 'http://${TEI_HOST}:80'
 # postgres:
 #   name: '${POSTGRES_DBNAME:-rag_flow}'
 #   user: '${POSTGRES_USER:-rag_flow}'
