@@ -1,4 +1,4 @@
-# RAGFlow Project Instructions for GitHub Copilot
+# 哈尔滨师范大学Agent系统 Project Instructions for GitHub Copilot
 
 This file provides context, build instructions, and coding standards for the RAGFlow project.
 It is structured to follow GitHub Copilot's [customization guidelines](https://docs.github.com/en/copilot/concepts/prompting/response-customization).

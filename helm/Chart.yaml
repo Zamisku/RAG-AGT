@@ -1,6 +1,6 @@
 apiVersion: v2
 name: ragflow
-description: A Helm chart for deploying RAGFlow on Kubernetes
+description: A Helm chart for deploying 哈尔滨师范大学Agent系统 on Kubernetes
 
 # A chart can be either an 'application' or a 'library' chart.
 #

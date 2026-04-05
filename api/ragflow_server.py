@@ -14,7 +14,7 @@
 #  limitations under the License.
 #
 
-print("Start RAGFlow server...")
+print("Start 哈尔滨师范大学Agent系统 server...")
 
 import time
 start_ts = time.time()
@@ -83,7 +83,7 @@ if __name__ == '__main__':
 
     """)
     logging.info(
-        f'RAGFlow version: {get_ragflow_version()}'
+        f'哈尔滨师范大学Agent系统 version: {get_ragflow_version()}'
     )
     logging.info(
         f'project base: {get_project_base_directory()}'
@@ -105,7 +105,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--version", default=False, help="RAGFlow version", action="store_true"
+        "--version", default=False, help="哈尔滨师范大学Agent系统 version", action="store_true"
     )
     parser.add_argument(
         "--debug", default=False, help="debug mode", action="store_true"
@@ -145,7 +145,7 @@ if __name__ == '__main__':
 
     # start http server
     try:
-        logging.info(f"RAGFlow server is ready after {time.time() - start_ts}s initialization.")
+        logging.info(f"哈尔滨师范大学Agent系统 server is ready after {time.time() - start_ts}s initialization.")
         app.run(host=settings.HOST_IP, port=settings.HOST_PORT)
     except Exception:
         traceback.print_exc()

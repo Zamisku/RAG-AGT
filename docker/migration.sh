@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# RAGFlow Data Migration Script
+# 哈尔滨师范大学Agent系统 Data Migration Script
 # Usage: ./migration.sh [-p project_name] [backup|restore] [backup_folder]
 #
-# This script helps you backup and restore RAGFlow Docker volumes
+# This script helps you backup and restore 哈尔滨师范大学Agent系统 Docker volumes
 # including MySQL, MinIO, Redis, and Elasticsearch data.
 
 set -e  # Exit on any error
@@ -25,19 +25,19 @@ build_volume_names() {
 
 # Function to display help information
 show_help() {
-    echo "RAGFlow Data Migration Tool"
+    echo "哈尔滨师范大学Agent系统 Data Migration Tool"
     echo ""
     echo "USAGE:"
     echo "  $0 [-p project_name] <operation> [backup_folder]"
     echo ""
     echo "OPERATIONS:"
-    echo "  backup   - Create backup of all RAGFlow data volumes"
-    echo "  restore  - Restore RAGFlow data volumes from backup"
+    echo "  backup   - Create backup of all 哈尔滨师范大学Agent系统 data volumes"
+    echo "  restore  - Restore 哈尔滨师范大学Agent系统 data volumes from backup"
     echo "  help     - Show this help message"
     echo ""
     echo "OPTIONS:"
     echo "  -p project_name  - Docker Compose project name (default: '$DEFAULT_PROJECT_NAME')"
-    echo "                     Use this when you started RAGFlow with 'docker compose -p <name>'"
+    echo "                     Use this when you started 哈尔滨师范大学Agent系统 with 'docker compose -p <name>'"
     echo ""
     echo "PARAMETERS:"
     echo "  backup_folder    - Name of backup folder (default: '$DEFAULT_BACKUP_FOLDER')"
@@ -47,8 +47,8 @@ show_help() {
     echo "  $0 backup my_backup              # Backup to './my_backup' folder"
     echo "  $0 restore                       # Restore from './backup' folder"
     echo "  $0 restore my_backup             # Restore from './my_backup' folder"
-    echo "  $0 -p ragflow backup             # Backup volumes for project 'ragflow'"
-    echo "  $0 -p ragflow restore my_backup  # Restore volumes for project 'ragflow'"
+    echo "  $0 -p harbin-normal-university-agent backup             # Backup volumes for project 'harbin-normal-university-agent'"
+    echo "  $0 -p harbin-normal-university-agent restore my_backup  # Restore volumes for project 'harbin-normal-university-agent'"
     echo ""
     echo "DOCKER VOLUMES (with default project name '$DEFAULT_PROJECT_NAME'):"
     echo "  - ${DEFAULT_PROJECT_NAME}_mysql_data     (MySQL database)"
@@ -57,7 +57,7 @@ show_help() {
     echo "  - ${DEFAULT_PROJECT_NAME}_esdata01       (Elasticsearch indices)"
     echo ""
     echo "NOTE:"
-    echo "  If you started RAGFlow with 'docker compose -p myproject up', the volume"
+    echo "  If you started 哈尔滨师范大学Agent系统 with 'docker compose -p myproject up', the volume"
     echo "  names will be prefixed with 'myproject' instead of 'docker'. In that case,"
     echo "  use '-p myproject' with this script to match the correct volumes."
 }
@@ -152,7 +152,7 @@ confirm_action() {
 perform_backup() {
     local backup_folder=$1
 
-    echo "🚀 Starting RAGFlow data backup..."
+    echo "🚀 Starting 哈尔滨师范大学Agent系统 data backup..."
     echo "📁 Backup folder: $backup_folder"
     echo "🏷️  Project name: $PROJECT_NAME"
     echo ""
@@ -203,7 +203,7 @@ perform_backup() {
 perform_restore() {
     local backup_folder=$1
 
-    echo "🔄 Starting RAGFlow data restore..."
+    echo "🔄 Starting 哈尔滨师范大学Agent系统 data restore..."
     echo "📁 Backup folder: $backup_folder"
     echo "🏷️  Project name: $PROJECT_NAME"
     echo ""
@@ -289,7 +289,7 @@ perform_restore() {
     done
 
     echo "🎉 Restore completed successfully!"
-    echo "💡 You can now start your RAGFlow services"
+    echo "💡 You can now start your 哈尔滨师范大学Agent系统 services"
 }
 
 # Main script logic

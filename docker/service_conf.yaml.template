@@ -1,4 +1,4 @@
-ragflow:
+harbin-normal-university-agent:
   host: ${RAGFLOW_HOST:-0.0.0.0}
   http_port: 9380
 admin:
@@ -39,28 +39,39 @@ oceanbase:
   scheme: 'oceanbase' # set 'mysql' to create connection using mysql config
   config:
     db_name: '${OCEANBASE_DOC_DBNAME:-test}'
-    user: '${OCEANBASE_USER:-root@ragflow}'
+    user: '${OCEANBASE_USER:-root@harbin-normal-university-agent}'
     password: '${OCEANBASE_PASSWORD:-infini_rag_flow}'
     host: '${OCEANBASE_HOST:-oceanbase}'
     port: ${OCEANBASE_PORT:-2881}
 seekdb:
   scheme: 'oceanbase' # SeekDB is the lite version of OceanBase
   config:
-    db_name: '${SEEKDB_DOC_DBNAME:-ragflow_doc}'
+    db_name: '${SEEKDB_DOC_DBNAME:-harbin-normal-university-agent_doc}'
     user: '${SEEKDB_USER:-root}'
     password: '${SEEKDB_PASSWORD:-infini_rag_flow}'
     host: '${SEEKDB_HOST:-seekdb}'
     port: ${SEEKDB_PORT:-2881}
+aliyun_opensearch:
+  hosts: '${ALIYUN_OPENSEARCH_HOSTS}'
+  username: '${ALIYUN_OPENSEARCH_USER:-admin}'
+  password: '${ALIYUN_OPENSEARCH_PASSWORD}'
 redis:
   db: 1
   username: '${REDIS_USERNAME:-}'
   password: '${REDIS_PASSWORD:-infini_rag_flow}'
   host: '${REDIS_HOST:-redis}:6379'
 user_default_llm:
+  factory: 'Tongyi-Qianwen'
+  api_key: '${DASHSCOPE_API_KEY}'
   default_models:
+    chat_model:
+      name: 'deepseek-chat'
+      factory: 'DeepSeek'
+      api_key: '${DEEPSEEK_API_KEY}'
     embedding_model:
-      api_key: 'xxx'
-      base_url: 'http://${TEI_HOST}:80'
+      name: 'text_embedding_v2'
+      factory: 'Tongyi-Qianwen'
+      api_key: '${DASHSCOPE_API_KEY}'
 # postgres:
 #   name: '${POSTGRES_DBNAME:-rag_flow}'
 #   user: '${POSTGRES_USER:-rag_flow}'
@@ -163,7 +174,7 @@ user_default_llm:
 #   mail_username: ""
 #   mail_password: ""
 #   mail_default_sender:
-#     - "RAGFlow" # display name
+#     - "哈尔滨师范大学Agent系统" # display name
 #     - "" # sender email address
 #   mail_frontend_url: "https://your-frontend.example.com"
 # tcadp_config:

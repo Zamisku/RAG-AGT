@@ -82,12 +82,12 @@ ragflow:
     pullSecrets: []
   # Optional service configuration overrides
   # to be written to local.service_conf.yaml
-  # inside the RAGFlow container
+  # inside the 哈尔滨师范大学Agent系统 container
   # https://ragflow.io/docs/dev/configurations#service-configuration
   service_conf:
 
   # Optional yaml formatted override for the
-  # llm_factories.json file inside the RAGFlow
+  # llm_factories.json file inside the 哈尔滨师范大学Agent系统
   # container.
   llm_factories:
     # factory_llm_infos:

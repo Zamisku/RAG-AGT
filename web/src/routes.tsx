@@ -49,6 +49,8 @@ export enum Routes {
   ProfileModel = `${ProfileSetting}${Model}`,
   ProfilePrompt = `${ProfileSetting}${Prompt}`,
   ProfileProfile = `${ProfileSetting}${Profile}`,
+  CloudService = '/cloud-service',
+  ProfileCloudService = `${ProfileSetting}${CloudService}`,
   DatasetTesting = '/testing',
   Chunk = '/chunk',
   ChunkResult = `${Chunk}${Chunk}`,
@@ -287,6 +289,10 @@ const routeConfigOptions = [
           {
             path: `${Routes.UserSetting}${Routes.DataSource}`,
             Component: () => import('@/pages/user-setting/data-source'),
+          },
+          {
+            path: `${Routes.UserSetting}${Routes.CloudService}`,
+            Component: () => import('@/pages/user-setting/setting-cloud-service'),
           },
         ],
       },

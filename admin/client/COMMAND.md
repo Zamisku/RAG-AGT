@@ -1,6 +1,6 @@
-# RAGFlow CLI User Command Reference
+# 哈尔滨师范大学Agent系统 CLI User Command Reference
 
-This document describes the user commands available in RAGFlow CLI. All commands must end with a semicolon (`;`).
+This document describes the user commands available in 哈尔滨师范大学Agent系统 CLI. All commands must end with a semicolon (`;`).
 
 ## Command List
 

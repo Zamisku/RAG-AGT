@@ -265,6 +265,9 @@ def init_settings():
     if lower_case_doc_engine == "elasticsearch":
         ES = get_base_config("es", {})
         docStoreConn = rag.utils.es_conn.ESConnection()
+    elif lower_case_doc_engine == "aliyun-opensearch":
+        ALIYUN_OPENSEARCH = get_base_config("aliyun_opensearch", {})
+        docStoreConn = rag.utils.aliyun_vector_conn.AliyunConnection()
     elif lower_case_doc_engine == "infinity":
         INFINITY = get_base_config("infinity", {
             "uri": "infinity:23817",
@@ -298,6 +301,8 @@ def init_settings():
         msgStoreConn = memory_infinity_conn.InfinityConnection()
     elif lower_case_doc_engine in ["oceanbase", "seekdb"]:
         msgStoreConn = memory_ob_conn.OBConnection()
+    elif lower_case_doc_engine == "aliyun-opensearch":
+        msgStoreConn = rag.utils.aliyun_vector_conn.AliyunConnection()
 
     global AZURE, S3, MINIO, OSS, GCS
     if STORAGE_IMPL_TYPE in ['AZURE_SPN', 'AZURE_SAS']:

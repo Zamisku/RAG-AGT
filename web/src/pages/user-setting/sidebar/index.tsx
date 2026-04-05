@@ -13,6 +13,7 @@ import { Routes } from '@/routes';
 import { TFunction } from 'i18next';
 import {
   LucideBox,
+  LucideCloud,
   LucideServer,
   LucideUnplug,
   LucideUser,
@@ -38,6 +39,11 @@ const menuItems = (t: TFunction) => [
     icon: <IconFontFill name="mcp" className="size-[1em]" />,
     label: 'MCP',
     key: Routes.Mcp,
+  },
+  {
+    icon: <LucideCloud className="size-[1em]" />,
+    label: t('setting.cloudService'),
+    key: Routes.CloudService,
   },
   {
     icon: <LucideUsers className="size-[1em]" />,

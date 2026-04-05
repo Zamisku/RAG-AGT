@@ -2,8 +2,8 @@
 
 set -e
 
-echo "Start RAGFlow cluster, version: "
-cat /ragflow/VERSION
+echo "Start 哈尔滨师范大学Agent系统 cluster, version: "
+cat /harbin-normal-university-agent/VERSION
 
 # -----------------------------------------------------------------------------
 # Usage and command-line argument parsing
@@ -11,7 +11,7 @@ cat /ragflow/VERSION
 function usage() {
     echo "Usage: $0 [--disable-webserver] [--disable-taskexecutor] [--disable-datasync] [--consumer-no-beg=<num>] [--consumer-no-end=<num>] [--workers=<num>] [--host-id=<string>]"
     echo
-    echo "  --disable-webserver             Disables the web server (nginx + ragflow_server)."
+    echo "  --disable-webserver             Disables the web server (nginx + harbin-normal-university-agent_server)."
     echo "  --disable-taskexecutor          Disables task executor workers."
     echo "  --disable-datasync              Disables synchronization of datasource workers."
     echo "  --enable-mcpserver              Enables the MCP server."
@@ -45,7 +45,7 @@ WORKERS=1
 MCP_HOST="127.0.0.1"
 MCP_PORT=9382
 MCP_BASE_URL="http://127.0.0.1:9380"
-MCP_SCRIPT_PATH="/ragflow/mcp/server/server.py"
+MCP_SCRIPT_PATH="/harbin-normal-university-agent/mcp/server/server.py"
 MCP_MODE="self-host"
 MCP_HOST_API_KEY=""
 MCP_TRANSPORT_SSE_FLAG="--transport-sse-enabled"
@@ -154,7 +154,7 @@ done
 # -----------------------------------------------------------------------------
 # Replace env variables in the service_conf.yaml file
 # -----------------------------------------------------------------------------
-CONF_DIR="/ragflow/conf"
+CONF_DIR="/harbin-normal-university-agent/conf"
 TEMPLATE_FILE="${CONF_DIR}/service_conf.yaml.template"
 CONF_FILE="${CONF_DIR}/service_conf.yaml"
 
@@ -184,19 +184,19 @@ PY=python3
 NGINX_CONF_DIR="/etc/nginx/conf.d"
 if [ -n "$API_PROXY_SCHEME" ]; then
     if [[ "${API_PROXY_SCHEME}" == "hybrid" ]]; then
-        cp -f "$NGINX_CONF_DIR/ragflow.conf.hybrid" "$NGINX_CONF_DIR/ragflow.conf"
-        echo "Applied nginx config: ragflow.conf.hybrid"
+        cp -f "$NGINX_CONF_DIR/harbin-normal-university-agent.conf.hybrid" "$NGINX_CONF_DIR/harbin-normal-university-agent.conf"
+        echo "Applied nginx config: harbin-normal-university-agent.conf.hybrid"
     elif [[ "${API_PROXY_SCHEME}" == "go" ]]; then
-        cp -f "$NGINX_CONF_DIR/ragflow.conf.golang" "$NGINX_CONF_DIR/ragflow.conf"
-        echo "Applied nginx config: ragflow.conf.golang (default)"
+        cp -f "$NGINX_CONF_DIR/harbin-normal-university-agent.conf.golang" "$NGINX_CONF_DIR/harbin-normal-university-agent.conf"
+        echo "Applied nginx config: harbin-normal-university-agent.conf.golang (default)"
     else
-        cp -f "$NGINX_CONF_DIR/ragflow.conf.python" "$NGINX_CONF_DIR/ragflow.conf"
-        echo "Applied nginx config: ragflow.conf.python"
+        cp -f "$NGINX_CONF_DIR/harbin-normal-university-agent.conf.python" "$NGINX_CONF_DIR/harbin-normal-university-agent.conf"
+        echo "Applied nginx config: harbin-normal-university-agent.conf.python"
     fi
 else
     # Default to python backend
-    cp -f "$NGINX_CONF_DIR/ragflow.conf.python" "$NGINX_CONF_DIR/ragflow.conf"
-    echo "Default: applied nginx config: ragflow.conf.python"
+    cp -f "$NGINX_CONF_DIR/harbin-normal-university-agent.conf.python" "$NGINX_CONF_DIR/harbin-normal-university-agent.conf"
+    echo "Default: applied nginx config: harbin-normal-university-agent.conf.python"
 fi
 
 # -----------------------------------------------------------------------------
@@ -271,17 +271,17 @@ if [[ "${ENABLE_WEBSERVER}" -eq 1 ]]; then
     /usr/sbin/nginx
 
     while true; do
-        echo "Attempt to start RAGFlow server..."
-        "$PY" api/ragflow_server.py ${INIT_SUPERUSER_ARGS}
-        echo "RAGFlow python server started."
+        echo "Attempt to start 哈尔滨师范大学Agent系统 server..."
+        "$PY" api/harbin-normal-university-agent_server.py ${INIT_SUPERUSER_ARGS}
+        echo "哈尔滨师范大学Agent系统 python server started."
         sleep 1;
     done &
 
     if [[ "${API_PROXY_SCHEME}" == "hybrid" ]]; then
         while true; do
-            echo "Attempt to start RAGFlow go server..."
-            wait_for_server "http://127.0.0.1:9380/healthz" "ragflow_server"
-            echo "Starting RAGFlow go server..."
+            echo "Attempt to start 哈尔滨师范大学Agent系统 go server..."
+            wait_for_server "http://127.0.0.1:9380/healthz" "harbin-normal-university-agent_server"
+            echo "Starting 哈尔滨师范大学Agent系统 go server..."
             bin/server_main
             sleep 1;
         done &

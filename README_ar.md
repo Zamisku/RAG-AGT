@@ -1,6 +1,6 @@
 <div align="center">
-<a href="https://cloud.ragflow.io/">
-<img src="web/src/assets/logo-with-text.svg" width="520" alt="ragflow logo">
+<a href="https://cloud.harbin-normal-university-agent.io/">
+<img src="web/src/assets/logo-with-text.svg" width="520" alt="harbin-normal-university-agent logo">
 </a>
 </div>
 
@@ -21,43 +21,43 @@
     <a href="https://x.com/intent/follow?screen_name=infiniflowai" target="_blank">
         <img src="https://img.shields.io/twitter/follow/infiniflow?logo=X&color=%20%23f5f5f5" alt="follow on X(Twitter)">
     </a>
-    <a href="https://cloud.ragflow.io" target="_blank">
+    <a href="https://cloud.harbin-normal-university-agent.io" target="_blank">
         <img alt="Static Badge" src="https://img.shields.io/badge/Online-Demo-4e6b99">
     </a>
-    <a href="https://hub.docker.com/r/infiniflow/ragflow" target="_blank">
-        <img src="https://img.shields.io/docker/pulls/infiniflow/ragflow?label=Docker%20Pulls&color=0db7ed&logo=docker&logoColor=white&style=flat-square" alt="docker pull infiniflow/ragflow:v0.24.0">
+    <a href="https://hub.docker.com/r/infiniflow/harbin-normal-university-agent" target="_blank">
+        <img src="https://img.shields.io/docker/pulls/infiniflow/harbin-normal-university-agent?label=Docker%20Pulls&color=0db7ed&logo=docker&logoColor=white&style=flat-square" alt="docker pull infiniflow/harbin-normal-university-agent:v0.24.0">
     </a>
-    <a href="https://github.com/infiniflow/ragflow/releases/latest">
-        <img src="https://img.shields.io/github/v/release/infiniflow/ragflow?color=blue&label=Latest%20Release" alt="Latest Release">
+    <a href="https://github.com/infiniflow/harbin-normal-university-agent/releases/latest">
+        <img src="https://img.shields.io/github/v/release/infiniflow/harbin-normal-university-agent?color=blue&label=Latest%20Release" alt="Latest Release">
     </a>
-    <a href="https://github.com/infiniflow/ragflow/blob/main/LICENSE">
+    <a href="https://github.com/infiniflow/harbin-normal-university-agent/blob/main/LICENSE">
         <img height="21" src="https://img.shields.io/badge/License-Apache--2.0-ffffff?labelColor=d4eaf7&color=2e6cc4" alt="license">
     </a>
-    <a href="https://deepwiki.com/infiniflow/ragflow">
+    <a href="https://deepwiki.com/infiniflow/harbin-normal-university-agent">
         <img alt="Ask DeepWiki" src="https://deepwiki.com/badge.svg">
     </a>
 </p>
 
 <h4 align="center">
-  <a href="https://ragflow.io/docs/dev/">Document</a> |
-  <a href="https://github.com/infiniflow/ragflow/issues/12241">Roadmap</a> |
+  <a href="https://harbin-normal-university-agent.io/docs/dev/">Document</a> |
+  <a href="https://github.com/infiniflow/harbin-normal-university-agent/issues/12241">Roadmap</a> |
   <a href="https://twitter.com/infiniflowai">Twitter</a> |
   <a href="https://discord.gg/NjYzJD3GM3">Discord</a> |
-  <a href="https://cloud.ragflow.io">Demo</a>
+  <a href="https://cloud.harbin-normal-university-agent.io">Demo</a>
 </h4>
 
 <div align="center" style="margin-top:20px;margin-bottom:20px;">
-<img src="https://raw.githubusercontent.com/infiniflow/ragflow-docs/refs/heads/image/image/ragflow-octoverse.png" width="1200"/>
+<img src="https://raw.githubusercontent.com/infiniflow/harbin-normal-university-agent-docs/refs/heads/image/image/harbin-normal-university-agent-octoverse.png" width="1200"/>
 </div>
 
 <div align="center">
-<a href="https://trendshift.io/repositories/9064" target="_blank"><img src="https://trendshift.io/api/badge/repositories/9064" alt="infiniflow%2Fragflow | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/9064" target="_blank"><img src="https://trendshift.io/api/badge/repositories/9064" alt="infiniflow%2Fharbin-normal-university-agent | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </div>
 
 <details open>
 <summary><b>📕 جدول المحتويات</b></summary>
 
-- 💡 [ما هو RAGFlow؟](#-what-is-ragflow)
+- 💡 [ما هو 哈尔滨师范大学Agent系统؟](#-what-is-harbin-normal-university-agent)
 - 🎮 [Demo](#-demo)
 - 📌 [آخر التحديثات](#-latest-updates)
 - 🌟 [الميزات الرئيسية](#-key-features)
@@ -73,22 +73,22 @@
 
 </details>
 
-## 💡 ما هو RAGFlow؟
+## 💡 ما هو 哈尔滨师范大学Agent系统؟
 
-يُعد مشروع [RAGFlow](https://ragflow.io/) محركًا رائدًا ومفتوح المصدر للاسترجاع المعزز بالتوليد (<bdi dir="ltr">RAG</bdi>)، ويجمع أحدث تقنيات <bdi dir="ltr">RAG</bdi> مع قدرات الوكلاء لبناء طبقة سياق متقدمة لنماذج <bdi dir="ltr">LLMs</bdi>. يوفّر سير عمل <bdi dir="ltr">RAG</bdi> مبسّطًا وقابلًا للتكيّف مع المؤسسات بمختلف أحجامها. وبالاعتماد على [محرك سياق موحّد](https://ragflow.io/basics/what-is-agent-context-engine) وقوالب وكلاء جاهزة، يتيح <bdi dir="ltr">RAGFlow</bdi> للمطورين تحويل البيانات المعقّدة إلى أنظمة <bdi dir="ltr">AI</bdi> عالية الدقة وجاهزة للإنتاج بكفاءة وموثوقية.
+يُعد مشروع [哈尔滨师范大学Agent系统](https://harbin-normal-university-agent.io/) محركًا رائدًا ومفتوح المصدر للاسترجاع المعزز بالتوليد (<bdi dir="ltr">RAG</bdi>)، ويجمع أحدث تقنيات <bdi dir="ltr">RAG</bdi> مع قدرات الوكلاء لبناء طبقة سياق متقدمة لنماذج <bdi dir="ltr">LLMs</bdi>. يوفّر سير عمل <bdi dir="ltr">RAG</bdi> مبسّطًا وقابلًا للتكيّف مع المؤسسات بمختلف أحجامها. وبالاعتماد على [محرك سياق موحّد](https://harbin-normal-university-agent.io/basics/what-is-agent-context-engine) وقوالب وكلاء جاهزة، يتيح <bdi dir="ltr">哈尔滨师范大学Agent系统</bdi> للمطورين تحويل البيانات المعقّدة إلى أنظمة <bdi dir="ltr">AI</bdi> عالية الدقة وجاهزة للإنتاج بكفاءة وموثوقية.
 
 ## 🎮 Demo
 
-جرّب النسخة التجريبية على [https://cloud.ragflow.io](https://cloud.ragflow.io).
+جرّب النسخة التجريبية على [https://cloud.harbin-normal-university-agent.io](https://cloud.harbin-normal-university-agent.io).
 
 <div align="center" style="margin-top:20px;margin-bottom:20px;">
-<img src="https://raw.githubusercontent.com/infiniflow/ragflow-docs/refs/heads/image/image/chunking.gif" width="1200"/>
-<img src="https://raw.githubusercontent.com/infiniflow/ragflow-docs/refs/heads/image/image/agentic-dark.gif" width="1200"/>
+<img src="https://raw.githubusercontent.com/infiniflow/harbin-normal-university-agent-docs/refs/heads/image/image/chunking.gif" width="1200"/>
+<img src="https://raw.githubusercontent.com/infiniflow/harbin-normal-university-agent-docs/refs/heads/image/image/agentic-dark.gif" width="1200"/>
 </div>
 
 ## 🔥 آخر التحديثات
 
-- 2026-03-24 [RAGFlow Skill on OpenClaw](https://clawhub.ai/yingfeng/ragflow-skill) — توفر مهارة رسمية للوصول إلى مجموعات بيانات RAGFlow عبر OpenClaw.
+- 2026-03-24 [哈尔滨师范大学Agent系统 Skill on OpenClaw](https://clawhub.ai/yingfeng/harbin-normal-university-agent-skill) — توفر مهارة رسمية للوصول إلى مجموعات بيانات 哈尔滨师范大学Agent系统 عبر OpenClaw.
 - 2025-12-26 يدعم ميزة "Memory" لوكلاء الذكاء الاصطناعي.
 - 11-11-2025 يدعم Gemini 3 Pro.
 - 12-11-2025 يدعم مزامنة البيانات من Confluence، S3، Notion، Discord، Google Drive.
@@ -152,7 +152,7 @@
 - الرام >= 16 جيجا
 - القرص >= 50 جيجا بايت
 - Docker >= 24.0.0 & Docker Compose >= v2.26.1
-- [gVisor](https://gvisor.dev/docs/user_guide/install/): مطلوب فقط إذا كنت تنوي استخدام ميزة منفذ التعليمات البرمجية (وضع الحماية) لـ RAGFlow.
+- [gVisor](https://gvisor.dev/docs/user_guide/install/): مطلوب فقط إذا كنت تنوي استخدام ميزة منفذ التعليمات البرمجية (وضع الحماية) لـ 哈尔滨师范大学Agent系统.
 
 > [!TIP]
 > إذا لم تقم بتثبيت Docker على جهازك المحلي (Windows أو Mac أو Linux)، راجع [تثبيت Docker Engine](https://docs.docker.com/engine/install/).
@@ -184,21 +184,21 @@
 2. استنساخ الريبو:
 
    ```bash
-   $ git clone https://github.com/infiniflow/ragflow.git
+   $ git clone https://github.com/infiniflow/harbin-normal-university-agent.git
    ```
 3. ابدأ تشغيل الخادم باستخدام صور Docker المعدة مسبقًا:
 
 > [!CAUTION]
 > جميع الصور Docker مصممة لمنصات x86. لا نعرض حاليًا صور Docker لـ ARM64.
-> إذا كنت تستخدم نظامًا أساسيًا ARM64، فاتبع [هذا الدليل](https://ragflow.io/docs/dev/build_docker_image) لإنشاء صورة Docker متوافقة مع نظامك.
+> إذا كنت تستخدم نظامًا أساسيًا ARM64، فاتبع [هذا الدليل](https://harbin-normal-university-agent.io/docs/dev/build_docker_image) لإنشاء صورة Docker متوافقة مع نظامك.
 
-> يقوم الأمر أدناه بتنزيل إصدار `v0.24.0` من الصورة RAGFlow Docker. راجع الجدول التالي للحصول على أوصاف لإصدارات RAGFlow المختلفة. لتنزيل إصدار RAGFlow مختلف عن `v0.24.0`، قم بتحديث المتغير `RAGFLOW_IMAGE` وفقًا لذلك في **docker/.env** قبل استخدام `docker compose` لبدء تشغيل الخادم.
+> يقوم الأمر أدناه بتنزيل إصدار `v0.24.0` من الصورة 哈尔滨师范大学Agent系统 Docker. راجع الجدول التالي للحصول على أوصاف لإصدارات 哈尔滨师范大学Agent系统 المختلفة. لتنزيل إصدار 哈尔滨师范大学Agent系统 مختلف عن `v0.24.0`، قم بتحديث المتغير `RAGFLOW_IMAGE` وفقًا لذلك في **docker/.env** قبل استخدام `docker compose` لبدء تشغيل الخادم.
 
 ```bash
-   $ cd ragflow/docker
+   $ cd harbin-normal-university-agent/docker
 
    # git checkout v0.24.0
-   # Optional: use a stable tag (see releases: https://github.com/infiniflow/ragflow/releases)
+   # Optional: use a stable tag (see releases: https://github.com/infiniflow/harbin-normal-university-agent/releases)
    # This step ensures the **entrypoint.sh** file in the code matches the Docker image version.
 
    # Use CPU for DeepDoc tasks:
@@ -211,7 +211,7 @@
 
 > ملاحظة: قبل `v0.22.0`، قدمنا ​​كلتا الصورتين بنماذج embedding وصورًا رفيعة بدون نماذج embedding. التفاصيل على النحو التالي:
 
-| RAGFlow علامة الصورة | حجم الصورة (جيجابايت) | هل لديه نماذج embedding؟ | مستقر؟        |
+| 哈尔滨师范大学Agent系统 علامة الصورة | حجم الصورة (جيجابايت) | هل لديه نماذج embedding؟ | مستقر؟        |
 |-------------------|-----------------|-----------------------|----------------|
 | v0.21.1 | &approx;9 | ✔️ | إصدار مستقر |
 | v0.21.1-slim | &approx;2 | ❌ | إصدار مستقر |
@@ -221,7 +221,7 @@
 4. التحقق من حالة الخادم بعد تشغيل الخادم:
 
    ```bash
-   $ docker logs -f docker-ragflow-cpu-1
+   $ docker logs -f docker-harbin-normal-university-agent-cpu-1
    ```
 
    _النتيجة التالية تؤكد الإطلاق الناجح للنظام:_
@@ -237,10 +237,10 @@
     * Running on all addresses (0.0.0.0)
    ```
 
-   > إذا تخطيت خطوة التأكيد هذه وقمت بتسجيل الدخول مباشرة إلى RAGFlow، فقد يعرض متصفحك تنبيه `network abnormal`
-   > خطأ لأنه في تلك اللحظة، قد لا تتم تهيئة RAGFlow بشكل كامل.
+   > إذا تخطيت خطوة التأكيد هذه وقمت بتسجيل الدخول مباشرة إلى 哈尔滨师范大学Agent系统، فقد يعرض متصفحك تنبيه `network abnormal`
+   > خطأ لأنه في تلك اللحظة، قد لا تتم تهيئة 哈尔滨师范大学Agent系统 بشكل كامل.
    >
-5. في متصفح الويب الخاص بك، أدخل عنوان IP الخاص بالخادم الخاص بك وقم بتسجيل الدخول إلى RAGFlow.
+5. في متصفح الويب الخاص بك، أدخل عنوان IP الخاص بالخادم الخاص بك وقم بتسجيل الدخول إلى 哈尔滨师范大学Agent系统.
 
    > باستخدام الإعدادات الافتراضية، ما عليك سوى إدخال `http://IP_OF_YOUR_MACHINE` (**من دون** رقم المنفذ) كإعداد افتراضي
    > HTTP يمكن حذف منفذ العرض `80` عند استخدام التكوينات الافتراضية.
@@ -248,7 +248,7 @@
 6. في [service_conf.yaml.template](./docker/service_conf.yaml.template)، حدد المصنع LLM المطلوب في `user_default_llm` وقم بالتحديث
    الحقل `API_KEY` مع مفتاح API المقابل.
 
-   > راجع [llm_api_key_setup](https://ragflow.io/docs/dev/llm_api_key_setup) لمزيد من المعلومات.
+   > راجع [llm_api_key_setup](https://harbin-normal-university-agent.io/docs/dev/llm_api_key_setup) لمزيد من المعلومات.
    >
 
    _العرض بدأ!_
@@ -276,7 +276,7 @@
 
 ### تبديل محرك المستندات من Elasticsearch إلى Infinity
 
-RAGFlow يستخدم Elasticsearch بشكل افتراضي لتخزين النص الكامل والمتجهات. للتبديل إلى [Infinity](https://github.com/infiniflow/infinity/)، اتبع الخطوات التالية:
+哈尔滨师范大学Agent系统 يستخدم Elasticsearch بشكل افتراضي لتخزين النص الكامل والمتجهات. للتبديل إلى [Infinity](https://github.com/infiniflow/infinity/)، اتبع الخطوات التالية:
 
 1. إيقاف كافة الحاويات قيد التشغيل:
 
@@ -302,9 +302,9 @@ RAGFlow يستخدم Elasticsearch بشكل افتراضي لتخزين النص
 يبلغ حجم هذه الصورة حوالي 2 غيغابايت وتعتمد على خدمات LLM وembedding الخارجية.
 
 ```bash
-git clone https://github.com/infiniflow/ragflow.git
-cd ragflow/
-docker build --platform linux/amd64 -f Dockerfile -t infiniflow/ragflow:nightly .
+git clone https://github.com/infiniflow/harbin-normal-university-agent.git
+cd harbin-normal-university-agent/
+docker build --platform linux/amd64 -f Dockerfile -t infiniflow/harbin-normal-university-agent:nightly .
 ```
 
 أو إذا كنت خلف وكيل، فيمكنك تمرير وسيطات الوكيل:
@@ -313,7 +313,7 @@ docker build --platform linux/amd64 -f Dockerfile -t infiniflow/ragflow:nightly 
 docker build --platform linux/amd64 \
   --build-arg http_proxy=http://YOUR_PROXY:PORT \
   --build-arg https_proxy=http://YOUR_PROXY:PORT \
-  -f Dockerfile -t infiniflow/ragflow:nightly .
+  -f Dockerfile -t infiniflow/harbin-normal-university-agent:nightly .
 ```
 
 ## 🔨 إطلاق الخدمة من المصدر للتطوير
@@ -326,9 +326,9 @@ docker build --platform linux/amd64 \
 2. استنساخ الكود المصدري وتثبيت تبعيات بايثون:
 
    ```bash
-   git clone https://github.com/infiniflow/ragflow.git
-   cd ragflow/
-   uv sync --python 3.12 # install RAGFlow dependent python modules
+   git clone https://github.com/infiniflow/harbin-normal-university-agent.git
+   cd harbin-normal-university-agent/
+   uv sync --python 3.12 # install 哈尔滨师范大学Agent系统 dependent python modules
    uv run download_deps.py
    pre-commit install
    ```
@@ -382,25 +382,25 @@ docker build --platform linux/amd64 \
    _النتيجة التالية تؤكد الإطلاق الناجح للنظام:_
 
    ![](https://github.com/user-attachments/assets/0daf462c-a24d-4496-a66f-92533534e187)
-9. أوقف خدمة الواجهة الأمامية والخلفية RAGFlow بعد اكتمال التطوير:
+9. أوقف خدمة الواجهة الأمامية والخلفية 哈尔滨师范大学Agent系统 بعد اكتمال التطوير:
 
    ```bash
-   pkill -f "ragflow_server.py|task_executor.py"
+   pkill -f "harbin-normal-university-agent_server.py|task_executor.py"
    ```
 
 ## 📚 التوثيق
 
-- [البدء السريع](https://ragflow.io/docs/dev/)
-- [التكوين](https://ragflow.io/docs/dev/configurations)
-- [ملاحظات الإصدار](https://ragflow.io/docs/dev/release_notes)
-- [أدلة المستخدم](https://ragflow.io/docs/category/user-guides)
-- [أدلة المطورين](https://ragflow.io/docs/category/developer-guides)
-- [المراجع](https://ragflow.io/docs/dev/category/references)
-- [الأسئلة الشائعة](https://ragflow.io/docs/dev/faq)
+- [البدء السريع](https://harbin-normal-university-agent.io/docs/dev/)
+- [التكوين](https://harbin-normal-university-agent.io/docs/dev/configurations)
+- [ملاحظات الإصدار](https://harbin-normal-university-agent.io/docs/dev/release_notes)
+- [أدلة المستخدم](https://harbin-normal-university-agent.io/docs/category/user-guides)
+- [أدلة المطورين](https://harbin-normal-university-agent.io/docs/category/developer-guides)
+- [المراجع](https://harbin-normal-university-agent.io/docs/dev/category/references)
+- [الأسئلة الشائعة](https://harbin-normal-university-agent.io/docs/dev/faq)
 
 ## 📜 Roadmap
 
-راجع [RAGFlow Roadmap 2026](https://github.com/infiniflow/ragflow/issues/12241)
+راجع [哈尔滨师范大学Agent系统 Roadmap 2026](https://github.com/infiniflow/harbin-normal-university-agent/issues/12241)
 
 ## 🏄 المجتمع
 
@@ -410,5 +410,5 @@ docker build --platform linux/amd64 \
 
 ## 🙌 المساهمة
 
-RAGFlow يزدهر من خلال التعاون مفتوح المصدر. وبهذه الروح، فإننا نحتضن المساهمات المتنوعة من المجتمع.
-إذا كنت ترغب في أن تكون جزءًا، فراجع [إرشادات المساهمة](https://ragflow.io/docs/dev/contributing) أولاً.
+哈尔滨师范大学Agent系统 يزدهر من خلال التعاون مفتوح المصدر. وبهذه الروح، فإننا نحتضن المساهمات المتنوعة من المجتمع.
+إذا كنت ترغب في أن تكون جزءًا، فراجع [إرشادات المساهمة](https://harbin-normal-university-agent.io/docs/dev/contributing) أولاً.

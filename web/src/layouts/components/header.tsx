@@ -63,7 +63,7 @@ export function Header({
           to={Routes.Root}
           aria-current={pathname === Routes.Root ? 'page' : undefined}
         >
-          <img src={'/logo.svg'} alt="RAGFlow logo" className="size-10" />
+          <img src={'/logo.svg'} alt="哈尔滨师范大学Agent系统 logo" className="size-10" />
         </Link>
       </div>
 

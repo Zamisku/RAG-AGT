@@ -1,10 +1,10 @@
-# RAGFlow Admin Service & CLI
+# 哈尔滨师范大学Agent系统 Admin Service & CLI
 
 ### Introduction
 
-Admin Service is a dedicated management component designed to monitor, maintain, and administrate the RAGFlow system. It provides comprehensive tools for ensuring system stability, performing operational tasks, and managing users and permissions efficiently.
+Admin Service is a dedicated management component designed to monitor, maintain, and administrate the 哈尔滨师范大学Agent系统 system. It provides comprehensive tools for ensuring system stability, performing operational tasks, and managing users and permissions efficiently.
 
-The service offers real-time monitoring of critical components, including the RAGFlow server, Task Executor processes, and dependent services such as MySQL, Infinity, Elasticsearch, Redis, and MinIO. It automatically checks their health status, resource usage, and uptime, and performs restarts in case of failures to minimize downtime.
+The service offers real-time monitoring of critical components, including the 哈尔滨师范大学Agent系统 server, Task Executor processes, and dependent services such as MySQL, Infinity, Elasticsearch, Redis, and MinIO. It automatically checks their health status, resource usage, and uptime, and performs restarts in case of failures to minimize downtime.
 
 For user and system management, it supports listing, creating, modifying, and deleting users and their associated resources like knowledge bases and Agents.
 
@@ -12,7 +12,7 @@ Built with scalability and reliability in mind, the Admin Service ensures smooth
 
 It consists of a server-side Service and a command-line client (CLI), both implemented in Python. User commands are parsed using the Lark parsing toolkit.
 
-- **Admin Service**: A backend service that interfaces with the RAGFlow system to execute administrative operations and monitor its status.
+- **Admin Service**: A backend service that interfaces with the 哈尔滨师范大学Agent系统 system to execute administrative operations and monitor its status.
 - **Admin CLI**: A command-line interface that allows users to connect to the Admin Service and issue commands for system management.
 
 
@@ -21,7 +21,7 @@ It consists of a server-side Service and a command-line client (CLI), both imple
 
 #### Launching from source code
 
-1. Before start Admin Service, please make sure RAGFlow system is already started.
+1. Before start Admin Service, please make sure 哈尔滨师范大学Agent系统 system is already started.
 
 2. Launch from source code:
 
@@ -59,9 +59,9 @@ It consists of a server-side Service and a command-line client (CLI), both imple
 
     **Parameters:**
     
-    - -h: RAGFlow admin server host address
+    - -h: 哈尔滨师范大学Agent系统 admin server host address
     
-    - -p: RAGFlow admin server port
+    - -p: 哈尔滨师范大学Agent系统 admin server port
 
 
 
@@ -72,7 +72,7 @@ Commands are case-insensitive and must be terminated with a semicolon (`;`).
 ### Service Management Commands
 
 -   `LIST SERVICES;`
-    -   Lists all available services within the RAGFlow system.
+    -   Lists all available services within the 哈尔滨师范大学Agent系统 system.
 -   `SHOW SERVICE <id>;`
     -   Shows detailed status information for the service identified by `<id>`.
 

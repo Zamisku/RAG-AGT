@@ -91,25 +91,25 @@ task_exe(){
     fi
 }
 
-# Function to execute ragflow_server with retry logic
+# Function to execute harbin-normal-university-agent_server with retry logic
 run_server(){
     local retry_count=0
     while ! $STOP && [ $retry_count -lt $MAX_RETRIES ]; do
-        echo "Starting ragflow_server.py (Attempt $((retry_count+1)))"
-        $PY api/ragflow_server.py
+        echo "Starting harbin-normal-university-agent_server.py (Attempt $((retry_count+1)))"
+        $PY api/harbin-normal-university-agent_server.py
         EXIT_CODE=$?
         if [ $EXIT_CODE -eq 0 ]; then
-            echo "ragflow_server.py exited successfully."
+            echo "harbin-normal-university-agent_server.py exited successfully."
             break
         else
-            echo "ragflow_server.py failed with exit code $EXIT_CODE. Retrying..." >&2
+            echo "harbin-normal-university-agent_server.py failed with exit code $EXIT_CODE. Retrying..." >&2
             retry_count=$((retry_count + 1))
             sleep 2
         fi
     done
 
     if [ $retry_count -ge $MAX_RETRIES ]; then
-        echo "ragflow_server.py failed after $MAX_RETRIES attempts. Exiting..." >&2
+        echo "harbin-normal-university-agent_server.py failed after $MAX_RETRIES attempts. Exiting..." >&2
         cleanup
     fi
 }

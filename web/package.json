@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "private": true,
-  "description": "RAGFlow Web Frontend migrated to Vite",
+  "description": "哈尔滨师范大学Agent系统 Web Frontend",
   "author": "bill",
   "type": "module",
   "scripts": {

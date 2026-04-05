@@ -13,9 +13,9 @@
 ## 🐳 Docker Compose
 
 - **docker-compose.yml**  
-  Sets up environment for RAGFlow and its dependencies.
+  Sets up environment for 哈尔滨师范大学Agent系统 and its dependencies.
 - **docker-compose-base.yml**  
-  Sets up environment for RAGFlow's dependencies: Elasticsearch/[Infinity](https://github.com/infiniflow/infinity), MySQL, MinIO, and Redis.
+  Sets up environment for 哈尔滨师范大学Agent系统's dependencies: Elasticsearch/[Infinity](https://github.com/infiniflow/infinity), MySQL, MinIO, and Redis.
 
 > [!CAUTION]
 > We do not actively maintain **docker-compose-CN-oc9.yml**, **docker-compose-macos.yml**, so use them at your own risk. However, you are welcome to file a pull request to improve any of them.
@@ -52,7 +52,7 @@ The [.env](./.env) file contains important environment variables for Docker.
 - `MYSQL_PASSWORD`  
   The password for MySQL.
 - `MYSQL_PORT`  
-  The port to connect to MySQL from RAGFlow container. Defaults to `3306`. Change this if you use an external MySQL.
+  The port to connect to MySQL from 哈尔滨师范大学Agent系统 container. Defaults to `3306`. Change this if you use an external MySQL.
 - `EXPOSE_MYSQL_PORT`  
   The port used to expose the MySQL service to the host machine, allowing **external** access to the MySQL database running inside the Docker container. Defaults to `5455`.
 
@@ -74,20 +74,20 @@ The [.env](./.env) file contains important environment variables for Docker.
 - `REDIS_PASSWORD`  
   The password for Redis.
 
-### RAGFlow
+### 哈尔滨师范大学Agent系统
 
 - `SVR_HTTP_PORT`  
-  The port used to expose RAGFlow's HTTP API service to the host machine, allowing **external** access to the service running inside the Docker container. Defaults to `9380`.
+  The port used to expose 哈尔滨师范大学Agent系统's HTTP API service to the host machine, allowing **external** access to the service running inside the Docker container. Defaults to `9380`.
 - `RAGFLOW-IMAGE`  
-  The Docker image edition. Defaults to `infiniflow/ragflow:v0.24.0`. The RAGFlow Docker image does not include embedding models.
+  The Docker image edition. Defaults to `infiniflow/harbin-normal-university-agent:v0.24.0`. The 哈尔滨师范大学Agent系统 Docker image does not include embedding models.
 
   
 > [!TIP]  
-> If you cannot download the RAGFlow Docker image, try the following mirrors.  
+> If you cannot download the 哈尔滨师范大学Agent系统 Docker image, try the following mirrors.  
 > 
 > - For the `nightly` edition:  
->   - `RAGFLOW_IMAGE=swr.cn-north-4.myhuaweicloud.com/infiniflow/ragflow:nightly` or,
->   - `RAGFLOW_IMAGE=registry.cn-hangzhou.aliyuncs.com/infiniflow/ragflow:nightly`.
+>   - `RAGFLOW_IMAGE=swr.cn-north-4.myhuaweicloud.com/infiniflow/harbin-normal-university-agent:nightly` or,
+>   - `RAGFLOW_IMAGE=registry.cn-hangzhou.aliyuncs.com/infiniflow/harbin-normal-university-agent:nightly`.
 
 ### Timezone
 
@@ -121,9 +121,9 @@ The [.env](./.env) file contains important environment variables for Docker.
 
 ## 🐋 Service configuration
 
-[service_conf.yaml](./service_conf.yaml) specifies the system-level configuration for RAGFlow and is used by its API server and task executor. In a dockerized setup, this file is automatically created based on the [service_conf.yaml.template](./service_conf.yaml.template) file (replacing all environment variables by their values).
+[service_conf.yaml](./service_conf.yaml) specifies the system-level configuration for 哈尔滨师范大学Agent系统 and is used by its API server and task executor. In a dockerized setup, this file is automatically created based on the [service_conf.yaml.template](./service_conf.yaml.template) file (replacing all environment variables by their values).
 
-- `ragflow`
+- `harbin-normal-university-agent`
   - `host`: The API server's IP address inside the Docker container. Defaults to `0.0.0.0`.
   - `port`: The API server's serving port inside the Docker container. Defaults to `9380`.
 
@@ -168,7 +168,7 @@ The [.env](./.env) file contains important environment variables for Docker.
   - `prefix_path`: Optional. A prefix path to prepend to file names in the S3 bucket, which can help organize files within the bucket.
 
 - `oauth`
-  The OAuth configuration for signing up or signing in to RAGFlow using a third-party account.
+  The OAuth configuration for signing up or signing in to 哈尔滨师范大学Agent系统 using a third-party account.
   - `<channel>`: Custom channel ID.
     - `type`: Authentication type, options include `oauth2`, `oidc`, `github`. Default is `oauth2`, when `issuer` parameter is provided, defaults to `oidc`.
     - `icon`: Icon ID, options include `github`, `sso`, default is `sso`.
@@ -183,7 +183,7 @@ The [.env](./.env) file contains important environment variables for Docker.
     - `redirect_uri`: Required, URI to which the authorization server redirects during the authentication flow to return results. Must match the callback URI registered with the authentication server. Format: `https://your-app.com/v1/user/oauth/callback/<channel>`. For local configuration, you can directly use `http://127.0.0.1:80/v1/user/oauth/callback/<channel>`.
 
 - `user_default_llm`  
-  The default LLM to use for a new RAGFlow user. It is disabled by default. To enable this feature, uncomment the corresponding lines in **service_conf.yaml.template**.  
+  The default LLM to use for a new 哈尔滨师范大学Agent系统 user. It is disabled by default. To enable this feature, uncomment the corresponding lines in **service_conf.yaml.template**.  
   - `factory`: The LLM supplier. Available options:
     - `"OpenAI"`
     - `"DeepSeek"`
@@ -194,7 +194,7 @@ The [.env](./.env) file contains important environment variables for Docker.
   - `api_key`: The API key for the specified LLM. You will need to apply for your model API key online.
 
 > [!TIP]  
-> If you do not set the default LLM here, configure the default LLM on the **Settings** page in the RAGFlow UI.
+> If you do not set the default LLM here, configure the default LLM on the **Settings** page in the 哈尔滨师范大学Agent系统 UI.
 
 
 ## 📋 Setup Examples
@@ -220,32 +220,32 @@ If you want your instance to be available under `https`, follow these steps:
    sudo yum install certbot
    
    # Obtain certificates (replace with your actual domain)
-   sudo certbot certonly --standalone -d your-ragflow-domain.com
+   sudo certbot certonly --standalone -d your-harbin-normal-university-agent-domain.com
    ```
 
 2. **Locate your certificates**  
    Once generated, your certificates will be located at:
-   - Certificate: `/etc/letsencrypt/live/your-ragflow-domain.com/fullchain.pem`
-   - Private key: `/etc/letsencrypt/live/your-ragflow-domain.com/privkey.pem`
+   - Certificate: `/etc/letsencrypt/live/your-harbin-normal-university-agent-domain.com/fullchain.pem`
+   - Private key: `/etc/letsencrypt/live/your-harbin-normal-university-agent-domain.com/privkey.pem`
 
 3. **Update docker-compose.yml**  
-   Add the certificate volumes to the `ragflow` service in your `docker-compose.yml`:
+   Add the certificate volumes to the `harbin-normal-university-agent` service in your `docker-compose.yml`:
    ```yaml
    services:
-     ragflow:
+     harbin-normal-university-agent:
        # ...existing configuration...
        volumes:
          # SSL certificates
-         - /etc/letsencrypt/live/your-ragflow-domain.com/fullchain.pem:/etc/nginx/ssl/fullchain.pem:ro
-         - /etc/letsencrypt/live/your-ragflow-domain.com/privkey.pem:/etc/nginx/ssl/privkey.pem:ro
+         - /etc/letsencrypt/live/your-harbin-normal-university-agent-domain.com/fullchain.pem:/etc/nginx/ssl/fullchain.pem:ro
+         - /etc/letsencrypt/live/your-harbin-normal-university-agent-domain.com/privkey.pem:/etc/nginx/ssl/privkey.pem:ro
          # Switch to HTTPS nginx configuration
-         - ./nginx/ragflow.https.conf:/etc/nginx/conf.d/ragflow.conf
+         - ./nginx/harbin-normal-university-agent.https.conf:/etc/nginx/conf.d/harbin-normal-university-agent.conf
          # ...other existing volumes...
   
    ```
 
 4. **Update nginx configuration**  
-   Edit `nginx/ragflow.https.conf` and replace `my_ragflow_domain.com` with your actual domain name.
+   Edit `nginx/harbin-normal-university-agent.https.conf` and replace `my_harbin-normal-university-agent_domain.com` with your actual domain name.
 
 5. **Restart the services**
    ```bash

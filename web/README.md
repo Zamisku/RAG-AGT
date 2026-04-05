@@ -14,7 +14,7 @@
 
    ![](https://github.com/user-attachments/assets/0daf462c-a24d-4496-a66f-92533534e187)
 
-## Login to RAGFlow web UI
+## Login to 哈尔滨师范大学Agent系统 web UI
 
    Open your browser and navigate to:
 
@@ -25,7 +25,7 @@
    _Replace `[YOUR_MACHINE_IP]` with your actual machine IP address (e.g., `http://192.168.1.49:9222`)._
 
 
-## Login to RAGFlow web admin UI
+## Login to 哈尔滨师范大学Agent系统 web admin UI
 
    Open your browser and navigate to:
 

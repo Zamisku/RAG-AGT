@@ -1,8 +1,8 @@
-# RAGFlow Helm Chart
+# 哈尔滨师范大学Agent系统 Helm Chart
 
-A Helm chart to deploy RAGFlow and its dependencies on Kubernetes.
+A Helm chart to deploy 哈尔滨师范大学Agent系统 and its dependencies on Kubernetes.
 
-- Components: RAGFlow (web/api) and optional dependencies (Infinity/Elasticsearch/OpenSearch, MySQL, MinIO, Redis)
+- Components: 哈尔滨师范大学Agent系统 (web/api) and optional dependencies (Infinity/Elasticsearch/OpenSearch, MySQL, MinIO, Redis)
 - Requirements: Kubernetes >= 1.24, Helm >= 3.10
 
 ## Install

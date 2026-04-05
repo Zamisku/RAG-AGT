@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding. It's a full-stack application with:
+哈尔滨师范大学Agent系统 is an open-source Agent system based on deep document understanding. It's a full-stack application with:
 - Python backend (Flask-based API server)
 - React/TypeScript frontend (built with UmiJS)
 - Microservices architecture with Docker deployment

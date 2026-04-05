@@ -1,6 +1,6 @@
 <div align="center">
-<a href="https://cloud.ragflow.io/">
-<img src="web/src/assets/logo-with-text.svg" width="520" alt="Logo ragflow">
+<a href="https://cloud.harbin-normal-university-agent.io/">
+<img src="web/src/assets/logo-with-text.svg" width="520" alt="Logo harbin-normal-university-agent">
 </a>
 </div>
 
@@ -21,43 +21,43 @@
     <a href="https://x.com/intent/follow?screen_name=infiniflowai" target="_blank">
         <img src="https://img.shields.io/twitter/follow/infiniflow?logo=X&color=%20%23f5f5f5" alt="Ikuti di X (Twitter)">
     </a>
-    <a href="https://cloud.ragflow.io" target="_blank">
+    <a href="https://cloud.harbin-normal-university-agent.io" target="_blank">
         <img alt="Lencana Daring" src="https://img.shields.io/badge/Online-Demo-4e6b99">
     </a>
-    <a href="https://hub.docker.com/r/infiniflow/ragflow" target="_blank">
-        <img src="https://img.shields.io/docker/pulls/infiniflow/ragflow?label=Docker%20Pulls&color=0db7ed&logo=docker&logoColor=white&style=flat-square" alt="docker pull infiniflow/ragflow:v0.24.0">
+    <a href="https://hub.docker.com/r/infiniflow/harbin-normal-university-agent" target="_blank">
+        <img src="https://img.shields.io/docker/pulls/infiniflow/harbin-normal-university-agent?label=Docker%20Pulls&color=0db7ed&logo=docker&logoColor=white&style=flat-square" alt="docker pull infiniflow/harbin-normal-university-agent:v0.24.0">
     </a>
-    <a href="https://github.com/infiniflow/ragflow/releases/latest">
-        <img src="https://img.shields.io/github/v/release/infiniflow/ragflow?color=blue&label=Rilis%20Terbaru" alt="Rilis Terbaru">
+    <a href="https://github.com/infiniflow/harbin-normal-university-agent/releases/latest">
+        <img src="https://img.shields.io/github/v/release/infiniflow/harbin-normal-university-agent?color=blue&label=Rilis%20Terbaru" alt="Rilis Terbaru">
     </a>
-    <a href="https://github.com/infiniflow/ragflow/blob/main/LICENSE">
+    <a href="https://github.com/infiniflow/harbin-normal-university-agent/blob/main/LICENSE">
         <img height="21" src="https://img.shields.io/badge/Lisensi-Apache--2.0-ffffff?labelColor=d4eaf7&color=2e6cc4" alt="Lisensi">
     </a>
-    <a href="https://deepwiki.com/infiniflow/ragflow">
+    <a href="https://deepwiki.com/infiniflow/harbin-normal-university-agent">
         <img alt="Ask DeepWiki" src="https://deepwiki.com/badge.svg">
     </a>
 </p>
 
 <h4 align="center">
-  <a href="https://ragflow.io/docs/dev/">Dokumentasi</a> |
-  <a href="https://github.com/infiniflow/ragflow/issues/12241">Peta Jalan</a> |
+  <a href="https://harbin-normal-university-agent.io/docs/dev/">Dokumentasi</a> |
+  <a href="https://github.com/infiniflow/harbin-normal-university-agent/issues/12241">Peta Jalan</a> |
   <a href="https://twitter.com/infiniflowai">Twitter</a> |
   <a href="https://discord.gg/NjYzJD3GM3">Discord</a> |
-  <a href="https://cloud.ragflow.io">Demo</a>
+  <a href="https://cloud.harbin-normal-university-agent.io">Demo</a>
 </h4>
 
 <div align="center" style="margin-top:20px;margin-bottom:20px;">
-<img src="https://raw.githubusercontent.com/infiniflow/ragflow-docs/refs/heads/image/image/ragflow-octoverse.png" width="1200"/>
+<img src="https://raw.githubusercontent.com/infiniflow/harbin-normal-university-agent-docs/refs/heads/image/image/harbin-normal-university-agent-octoverse.png" width="1200"/>
 </div>
 
 <div align="center">
-<a href="https://trendshift.io/repositories/9064" target="_blank"><img src="https://trendshift.io/api/badge/repositories/9064" alt="infiniflow%2Fragflow | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/9064" target="_blank"><img src="https://trendshift.io/api/badge/repositories/9064" alt="infiniflow%2Fharbin-normal-university-agent | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </div>
 
 <details open>
 <summary><b>📕 Daftar Isi </b> </summary>
 
-- 💡 [Apa Itu RAGFlow?](#-apa-itu-ragflow)
+- 💡 [Apa Itu 哈尔滨师范大学Agent系统?](#-apa-itu-harbin-normal-university-agent)
 - 🎮 [Demo](#-demo)
 - 📌 [Pembaruan Terbaru](#-pembaruan-terbaru)
 - 🌟 [Fitur Utama](#-fitur-utama)
@@ -73,22 +73,22 @@
 
 </details>
 
-## 💡 Apa Itu RAGFlow?
+## 💡 Apa Itu 哈尔滨师范大学Agent系统?
 
-[RAGFlow](https://ragflow.io/) adalah mesin [RAG](https://ragflow.io/basics/what-is-rag) (Retrieval-Augmented Generation) open-source terkemuka yang mengintegrasikan teknologi RAG mutakhir dengan kemampuan Agent untuk menciptakan lapisan kontekstual superior bagi LLM. Menyediakan alur kerja RAG yang efisien dan dapat diadaptasi untuk perusahaan segala skala. Didukung oleh mesin konteks terkonvergensi dan template Agent yang telah dipra-bangun, RAGFlow memungkinkan pengembang mengubah data kompleks menjadi sistem AI kesetiaan-tinggi dan siap-produksi dengan efisiensi dan presisi yang luar biasa.
+[哈尔滨师范大学Agent系统](https://harbin-normal-university-agent.io/) adalah mesin [RAG](https://harbin-normal-university-agent.io/basics/what-is-rag) (Retrieval-Augmented Generation) open-source terkemuka yang mengintegrasikan teknologi RAG mutakhir dengan kemampuan Agent untuk menciptakan lapisan kontekstual superior bagi LLM. Menyediakan alur kerja RAG yang efisien dan dapat diadaptasi untuk perusahaan segala skala. Didukung oleh mesin konteks terkonvergensi dan template Agent yang telah dipra-bangun, 哈尔滨师范大学Agent系统 memungkinkan pengembang mengubah data kompleks menjadi sistem AI kesetiaan-tinggi dan siap-produksi dengan efisiensi dan presisi yang luar biasa.
 
 ## 🎮 Demo
 
-Coba demo kami di [https://cloud.ragflow.io](https://cloud.ragflow.io).
+Coba demo kami di [https://cloud.harbin-normal-university-agent.io](https://cloud.harbin-normal-university-agent.io).
 
 <div align="center" style="margin-top:20px;margin-bottom:20px;">
-<img src="https://raw.githubusercontent.com/infiniflow/ragflow-docs/refs/heads/image/image/chunking.gif" width="1200"/>
-<img src="https://raw.githubusercontent.com/infiniflow/ragflow-docs/refs/heads/image/image/agentic-dark.gif" width="1200"/>
+<img src="https://raw.githubusercontent.com/infiniflow/harbin-normal-university-agent-docs/refs/heads/image/image/chunking.gif" width="1200"/>
+<img src="https://raw.githubusercontent.com/infiniflow/harbin-normal-university-agent-docs/refs/heads/image/image/agentic-dark.gif" width="1200"/>
 </div>
 
 ## 🔥 Pembaruan Terbaru
 
-- 2026-03-24 [RAGFlow Skill on OpenClaw](https://clawhub.ai/yingfeng/ragflow-skill) — Menyediakan skill resmi untuk mengakses dataset RAGFlow melalui OpenClaw.
+- 2026-03-24 [哈尔滨师范大学Agent系统 Skill on OpenClaw](https://clawhub.ai/yingfeng/harbin-normal-university-agent-skill) — Menyediakan skill resmi untuk mengakses dataset 哈尔滨师范大学Agent系统 melalui OpenClaw.
 - 2025-12-26 Mendukung 'Memori' untuk agen AI.
 - 2025-11-19 Mendukung Gemini 3 Pro.
 - 2025-11-12 Mendukung sinkronisasi data dari Confluence, S3, Notion, Discord, Google Drive.
@@ -152,7 +152,7 @@ Coba demo kami di [https://cloud.ragflow.io](https://cloud.ragflow.io).
 - RAM >= 16 GB
 - Disk >= 50 GB
 - Docker >= 24.0.0 & Docker Compose >= v2.26.1
-- [gVisor](https://gvisor.dev/docs/user_guide/install/): Hanya diperlukan jika Anda ingin menggunakan fitur eksekutor kode (sandbox) dari RAGFlow.
+- [gVisor](https://gvisor.dev/docs/user_guide/install/): Hanya diperlukan jika Anda ingin menggunakan fitur eksekutor kode (sandbox) dari 哈尔滨师范大学Agent系统.
 
 > [!TIP]
 > Jika Anda belum menginstal Docker di komputer lokal Anda (Windows, Mac, atau Linux), lihat [Install Docker Engine](https://docs.docker.com/engine/install/).
@@ -184,21 +184,21 @@ Coba demo kami di [https://cloud.ragflow.io](https://cloud.ragflow.io).
 2. Clone repositori:
 
    ```bash
-   $ git clone https://github.com/infiniflow/ragflow.git
+   $ git clone https://github.com/infiniflow/harbin-normal-university-agent.git
    ```
 3. Bangun image Docker pre-built dan jalankan server:
 
 > [!CAUTION]
 > Semua gambar Docker dibangun untuk platform x86. Saat ini, kami tidak menawarkan gambar Docker untuk ARM64.
-> Jika Anda menggunakan platform ARM64, [silakan gunakan panduan ini untuk membangun gambar Docker yang kompatibel dengan sistem Anda](https://ragflow.io/docs/dev/build_docker_image).
+> Jika Anda menggunakan platform ARM64, [silakan gunakan panduan ini untuk membangun gambar Docker yang kompatibel dengan sistem Anda](https://harbin-normal-university-agent.io/docs/dev/build_docker_image).
 
-> Perintah di bawah ini mengunduh edisi v0.24.0 dari gambar Docker RAGFlow. Silakan merujuk ke tabel berikut untuk deskripsi berbagai edisi RAGFlow. Untuk mengunduh edisi RAGFlow yang berbeda dari v0.24.0, perbarui variabel RAGFLOW_IMAGE di docker/.env sebelum menggunakan docker compose untuk memulai server.
+> Perintah di bawah ini mengunduh edisi v0.24.0 dari gambar Docker 哈尔滨师范大学Agent系统. Silakan merujuk ke tabel berikut untuk deskripsi berbagai edisi 哈尔滨师范大学Agent系统. Untuk mengunduh edisi 哈尔滨师范大学Agent系统 yang berbeda dari v0.24.0, perbarui variabel RAGFLOW_IMAGE di docker/.env sebelum menggunakan docker compose untuk memulai server.
 
 ```bash
-   $ cd ragflow/docker
+   $ cd harbin-normal-university-agent/docker
 
    # git checkout v0.24.0
-   # Opsional: gunakan tag stabil (lihat releases: https://github.com/infiniflow/ragflow/releases)
+   # Opsional: gunakan tag stabil (lihat releases: https://github.com/infiniflow/harbin-normal-university-agent/releases)
    # This steps ensures the **entrypoint.sh** file in the code matches the Docker image version.
 
    # Use CPU for DeepDoc tasks:
@@ -211,7 +211,7 @@ Coba demo kami di [https://cloud.ragflow.io](https://cloud.ragflow.io).
 
 > Catatan: Sebelum `v0.22.0`, kami menyediakan image dengan model embedding dan image slim tanpa model embedding. Detailnya sebagai berikut:
 
-| RAGFlow image tag | Image size (GB) | Has embedding models? | Stable?        |
+| 哈尔滨师范大学Agent系统 image tag | Image size (GB) | Has embedding models? | Stable?        |
 |-------------------|-----------------|-----------------------|----------------|
 | v0.21.1           | &approx;9       | ✔️                    | Stable release |
 | v0.21.1-slim      | &approx;2       | ❌                     | Stable release |
@@ -221,7 +221,7 @@ Coba demo kami di [https://cloud.ragflow.io](https://cloud.ragflow.io).
 1. Periksa status server setelah server aktif dan berjalan:
 
    ```bash
-   $ docker logs -f docker-ragflow-cpu-1
+   $ docker logs -f docker-harbin-normal-university-agent-cpu-1
    ```
 
    _Output berikut menandakan bahwa sistem berhasil diluncurkan:_
@@ -237,10 +237,10 @@ Coba demo kami di [https://cloud.ragflow.io](https://cloud.ragflow.io).
     * Running on all addresses (0.0.0.0)
    ```
 
-   > Jika Anda melewatkan langkah ini dan langsung login ke RAGFlow, browser Anda mungkin menampilkan error `network abnormal`
-   > karena RAGFlow mungkin belum sepenuhnya siap.
+   > Jika Anda melewatkan langkah ini dan langsung login ke 哈尔滨师范大学Agent系统, browser Anda mungkin menampilkan error `network abnormal`
+   > karena 哈尔滨师范大学Agent系统 mungkin belum sepenuhnya siap.
    >
-2. Buka browser web Anda, masukkan alamat IP server Anda, dan login ke RAGFlow.
+2. Buka browser web Anda, masukkan alamat IP server Anda, dan login ke 哈尔滨师范大学Agent系统.
 
    > Dengan pengaturan default, Anda hanya perlu memasukkan `http://IP_DEVICE_ANDA` (**tanpa** nomor port) karena
    > port HTTP default `80` bisa dihilangkan saat menggunakan konfigurasi default.
@@ -248,7 +248,7 @@ Coba demo kami di [https://cloud.ragflow.io](https://cloud.ragflow.io).
 3. Dalam [service_conf.yaml.template](./docker/service_conf.yaml.template), pilih LLM factory yang diinginkan di `user_default_llm` dan perbarui
    bidang `API_KEY` dengan kunci API yang sesuai.
 
-   > Lihat [llm_api_key_setup](https://ragflow.io/docs/dev/llm_api_key_setup) untuk informasi lebih lanjut.
+   > Lihat [llm_api_key_setup](https://harbin-normal-university-agent.io/docs/dev/llm_api_key_setup) untuk informasi lebih lanjut.
    >
 
    _Sistem telah siap digunakan!_
@@ -276,9 +276,9 @@ Pembaruan konfigurasi ini memerlukan reboot semua kontainer agar efektif:
 Image ini berukuran sekitar 2 GB dan bergantung pada aplikasi LLM eksternal dan embedding.
 
 ```bash
-git clone https://github.com/infiniflow/ragflow.git
-cd ragflow/
-docker build --platform linux/amd64 -f Dockerfile -t infiniflow/ragflow:nightly .
+git clone https://github.com/infiniflow/harbin-normal-university-agent.git
+cd harbin-normal-university-agent/
+docker build --platform linux/amd64 -f Dockerfile -t infiniflow/harbin-normal-university-agent:nightly .
 ```
 
 Jika berada di belakang proxy, Anda dapat melewatkan argumen proxy:
@@ -287,7 +287,7 @@ Jika berada di belakang proxy, Anda dapat melewatkan argumen proxy:
 docker build --platform linux/amd64 \
   --build-arg http_proxy=http://YOUR_PROXY:PORT \
   --build-arg https_proxy=http://YOUR_PROXY:PORT \
-  -f Dockerfile -t infiniflow/ragflow:nightly .
+  -f Dockerfile -t infiniflow/harbin-normal-university-agent:nightly .
 ```
 
 ## 🔨 Menjalankan Aplikasi dari untuk Pengembangan
@@ -300,9 +300,9 @@ docker build --platform linux/amd64 \
 2. Clone kode sumber dan instal dependensi Python:
 
    ```bash
-   git clone https://github.com/infiniflow/ragflow.git
-   cd ragflow/
-   uv sync --python 3.12 # install RAGFlow dependent python modules
+   git clone https://github.com/infiniflow/harbin-normal-university-agent.git
+   cd harbin-normal-university-agent/
+   uv sync --python 3.12 # install 哈尔滨师范大学Agent系统 dependent python modules
    uv run download_deps.py
    pre-commit install
    ```
@@ -354,25 +354,25 @@ docker build --platform linux/amd64 \
    _Output berikut menandakan bahwa sistem berhasil diluncurkan:_
 
    ![](https://github.com/user-attachments/assets/0daf462c-a24d-4496-a66f-92533534e187)
-9. Hentikan layanan front-end dan back-end RAGFlow setelah pengembangan selesai:
+9. Hentikan layanan front-end dan back-end 哈尔滨师范大学Agent系统 setelah pengembangan selesai:
 
    ```bash
-   pkill -f "ragflow_server.py|task_executor.py"
+   pkill -f "harbin-normal-university-agent_server.py|task_executor.py"
    ```
 
 ## 📚 Dokumentasi
 
-- [Quickstart](https://ragflow.io/docs/dev/)
-- [Configuration](https://ragflow.io/docs/dev/configurations)
-- [Release notes](https://ragflow.io/docs/dev/release_notes)
-- [User guides](https://ragflow.io/docs/category/user-guides)
-- [Developer guides](https://ragflow.io/docs/category/developer-guides)
-- [References](https://ragflow.io/docs/dev/category/references)
-- [FAQs](https://ragflow.io/docs/dev/faq)
+- [Quickstart](https://harbin-normal-university-agent.io/docs/dev/)
+- [Configuration](https://harbin-normal-university-agent.io/docs/dev/configurations)
+- [Release notes](https://harbin-normal-university-agent.io/docs/dev/release_notes)
+- [User guides](https://harbin-normal-university-agent.io/docs/category/user-guides)
+- [Developer guides](https://harbin-normal-university-agent.io/docs/category/developer-guides)
+- [References](https://harbin-normal-university-agent.io/docs/dev/category/references)
+- [FAQs](https://harbin-normal-university-agent.io/docs/dev/faq)
 
 ## 📜 Roadmap
 
-Lihat [Roadmap RAGFlow 2026](https://github.com/infiniflow/ragflow/issues/12241)
+Lihat [Roadmap 哈尔滨师范大学Agent系统 2026](https://github.com/infiniflow/harbin-normal-university-agent/issues/12241)
 
 ## 🏄 Komunitas
 
@@ -382,5 +382,5 @@ Lihat [Roadmap RAGFlow 2026](https://github.com/infiniflow/ragflow/issues/12241)
 
 ## 🙌 Kontribusi
 
-RAGFlow berkembang melalui kolaborasi open-source. Dalam semangat ini, kami menerima kontribusi dari komunitas.
-Jika Anda ingin berpartisipasi, tinjau terlebih dahulu [Panduan Kontribusi](https://ragflow.io/docs/dev/contributing).
+哈尔滨师范大学Agent系统 berkembang melalui kolaborasi open-source. Dalam semangat ini, kami menerima kontribusi dari komunitas.
+Jika Anda ingin berpartisipasi, tinjau terlebih dahulu [Panduan Kontribusi](https://harbin-normal-university-agent.io/docs/dev/contributing).

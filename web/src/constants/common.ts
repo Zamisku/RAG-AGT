@@ -199,7 +199,7 @@ export const SupportedPreviewDocumentTypes = [...ExceptiveType];
 //#endregion
 
 export enum Platform {
-  RAGFlow = 'RAGFlow',
+  RAGFlow = '哈尔滨师范大学Agent系统',
   Dify = 'Dify',
   FastGPT = 'FastGPT',
   Coze = 'Coze',
