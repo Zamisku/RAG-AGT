@@ -57,10 +57,15 @@ redis:
   password: '${REDIS_PASSWORD:-infini_rag_flow}'
   host: '${REDIS_HOST:-redis}:6379'
 user_default_llm:
+  factory: 'SILICONFLOW'
+  api_key: '${SILICONFLOW_API_KEY}'
+  base_url: 'https://api.siliconflow.cn/v1'
   default_models:
     embedding_model:
-      api_key: 'xxx'
-      base_url: 'http://${TEI_HOST}:80'
+      name: 'BAAI/bge-large-zh-v1.5'
+      factory: 'SILICONFLOW'
+      api_key: '${SILICONFLOW_API_KEY}'
+      base_url: 'https://api.siliconflow.cn/v1'
 # postgres:
 #   name: '${POSTGRES_DBNAME:-rag_flow}'
 #   user: '${POSTGRES_USER:-rag_flow}'
